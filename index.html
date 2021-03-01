@@ -2,88 +2,250 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>miho portfolio</title>
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='フリーランス　Miho Portfolio'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='フリーランスMihoのポートフォリオです'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="フリーランスMihoのポートフォリオです" />
+  <title>Miho Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
 </head>
+
 <body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+  <div class="wrapper">
+
+    <!-- .gnav -->
+    <nav class="gnav" class="fixed">
+      <ul class="gnav-list">
+        <li class="gnav-item"><a class="gnav-link" href="#works-section">About</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#about-section">Service</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#skill-section">Skill</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#blog-section">Blog</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#contact-section">Contct</a></li>
+      </ul>
+    </nav>
+    <!-- /.gnav -->
+
+    <!-- .header -->
+    <header class="header">
+      <h1 class="logo">
+        <div class="logo-title">Welcom</div>
+        <!-- <div class="logo-subtitle">PORTFOLIO</div> -->
+      </h1>
+    </header>
+    <!-- /.header -->
+
+    <main class="content">
+      <!-- .about-section -->
+      <section class="about-section section" id="about-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">About</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              Mihoのプロフィールです
+            </p>
+          </div>
+          <div class="section-body about">
+            <div class="about-item">
+              <div class="about-image-wrapper">
+                <img class="about-image lazyload fadein" src="img/823D3FB8-0634-4B41-80FF-BED6FAB57737.png" alt="">
+              </div>
+              <div class="about-body">
+                <p>
+                  名前　：Miho<br>
+                  居住地：関東
+                </p>
+                <!-- 自己紹介詳細に -->
+                <p>
+                  保育大学卒業後保育士１年、その後転職し派遣社員として一般事務・大学事務・損保事務を転業する。２０１９年に副業でWebライターを始め、３社と契約し１０記事以上執筆。主なジャンルは芸能ゴシップ・街の情報まとめ・アウトドアなど。<br>２０２０年１１月よりプログラミング学習を開始、２０２１年１月よりブログ「みほぶろぐ！」を開設。<br>
+                  長所は常に「より最前」を考え続けるところ。趣味はキャンプとネットサーフィン。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.about-section -->
+      
+      <!-- .works-section -->
+      <section class="works-section section" id="works-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">Service</h2>
+          </div>
+          <div class="section-lead">
+            <p>下記のようなサイトを作成できます</p>
+          </div>
+          <div class="section-body works">
+            <div class="works-list js-my-gallery">
+              <figure class="works-item">
+                <!-- <a href="img/スクリーンショット 2021-02-25 10.21.15.png" data-size="500x300" class="works-image-wrapper works-link hover-action"> -->
+                  <img class="works-image lazyload fadein" src="img/スクリーンショット 2021-02-25 10.21.15.png" data-src=""
+                    alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">想定▶︎スクールHP</div>
+                  <!-- ここに説明？書く -->
+                  <div class="works-text">
+                  </div>
+                  <!-- <div class="works-url"><a class="works-url-link" href="https://www.street-academy.com/" target="_blank">Link</a>
+                  </div> -->
+                </figcaption>
+              </figure>
+
+              <!-- <figure class="works-item">
+                <a href="img/works/comingsoon.png" data-size="960x720"
+                  class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png"
+                    data-src="img/works/comingsoon.png" alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">coming soon…</div>
+                  <div class="works-text">Web・AppのUI/UXデザイン </div>
+                  <div class="works-url"><a class="works-url-link" href="" target="_blank">Link</a>
+                  </div>-->
+                <!-- </figcaption>
+              </figure> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.works-section -->
+
+
+      <!-- .skill-section -->
+      <section class="skill-section section" id="skill-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">Skill</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              私のスキル一覧です。
+            </p>
+          </div>
+          <div class="section-body skill">
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/ノートパソコンのアイコン素材4 (1).png" alt="">
+                </div>
+                <!-- ここに自分のスキル書く -->
+                <div class="skill-body">
+                  <h3 class="skill-title">HTML＆CSS</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae id omnis inventore sed sit molestiae. Maiores laboriosam eum enim officiis quod aspernatur excepturi perferendis? Facere incidunt explicabo fugit et ut.
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/記事アイコン1.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Webライティング</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore veniam porro neque harum placeat doloribus vel ipsa sapiente nostrum? Neque soluta consequatur quidem, eos facere porro ducimus qui doloribus assumenda?
+                    <!-- 必要に応じて、ディレクション等で出た課題を元に、問題解決可能なUI・UXデザインを制作します。グラフィック（バナー制作・イラストレーションなど）の制作は行っておりません。</p> -->
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/ノートパソコンのアイコン素材4 (1).png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">PHP</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore veniam porro neque harum placeat doloribus vel ipsa sapiente nostrum? Neque soluta consequatur quidem, eos facere porro ducimus qui doloribus assumenda?
+                    <!-- 必要に応じて、ディレクション等で出た課題を元に、問題解決可能なUI・UXデザインを制作します。グラフィック（バナー制作・イラストレーションなど）の制作は行っておりません。</p> -->
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.skill-section -->
+
+      <!-- .blog-section -->
+      <section class="blog-section section" id="blog-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">BLOG</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              私が運営しているブログです。生活・仕事・商品紹介などを記事にしています。
+             </p>
+          </div>
+
+          <!-- ここあとでやる。ブログの表示方法調べる -->
+          <div class="section-body blog">
+            <div class="blog-list">
+              <div class="iframely-embed1"><div class="iframely-responsive" style="padding-bottom: 66.7188%; padding-top: 120px;"><a href="https://mihoblog8639.com/%25e3%2583%25a1%25e3%2583%25b3%25e3%2582%25bf%25e3%2583%25ab%25e5%25b4%25a9%25e5%25a3%258a%25e6%2597%25a5%25e3%2581%25ab%25e3%2581%258a%25e3%2581%2599%25e3%2581%2599%25e3%2582%2581%25e3%2581%25ae%25e9%2581%258e%25e3%2581%2594%25e3%2581%2597%25e6%2596%25b9%25ef%25bc%2593%25e9%2581%25b8%25ef%25bc%2581%25e7%2596%25b2%25e3%2582%258c/" data-iframely-url="//cdn.iframe.ly/bHw6rFH"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+            </div>
+            <div class="blog-list">
+              <div class="iframely-embed2"><div class="iframely-responsive" style="padding-bottom: 66.875%; padding-top: 120px;"><a href="https://mihoblog8639.com/post-12/" data-iframely-url="//cdn.iframe.ly/6arEKW7"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+            </div>
+            <div class="blog-list">
+              <div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 66.7188%; padding-top: 120px;"><a href="https://mihoblog8639.com/%25e3%2583%258d%25e3%2582%25a4%25e3%2583%2581%25e3%2583%25a3%25e3%2583%25bc%25e3%2582%25a6%25e3%2583%2583%25e3%2583%2589%25e3%2582%25b9%25e3%2583%2588%25e3%2583%25bc%25e3%2583%2596%25e6%259c%25ac%25e6%25b0%2597%25e3%2583%25ac%25e3%2583%2593%25e3%2583%25a5%25e3%2583%25bc/" data-iframely-url="//cdn.iframe.ly/Vpf5tA6"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.blog-section -->
+
+      <!-- .contact-section -->
+      <section class="contact-section section" id="contact-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">CONTACT</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              お問い合わせは、<br class="sp-only">SNSまたはブログからお願いいたします。
+            </p>
+          </div>
+          <div class="section-body contact">
+            <ul class="contact-list">
+              <li class="contact-item">
+                <!-- faなんとかにする -->
+                <a class="contact-link" href="https://mobile.twitter.com/mio303014" target="_blank"><img class="contact-image"
+                    src="img/twitterのフリーアイコン素材.png" alt=""></a>
+              </li>
+              <li class="contact-item">
+                <a class="contact-link" href="https://www.instagram.com/min372525/" target="_blank"><img class="contact-image"
+                    src="img/レトロなカメラアイコン2.png" alt=""></a>
+              </li>
+              <li class="contact-item">
+                <a class="contact-link" href="https://mihoblog8639.com/" target="_blank"><img class="contact-image"
+                    src="img/BLOGアイコン.png" alt=""></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- /.contact-section -->
+
+    </main>
+
+    <!-- .footer -->
+    <footer class="footer">
+      <div class="page-top" id="js-page-top"><a href="#">トップへもどる</a></div>
+      <div class="inner">
+        <div class="copyright">Copyright&copy;Miho. All Rights Reserved.</div>
       </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
+    </footer>
+    <!-- /.footer -->
+
   </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
-  </body>
+ 
+</body>
 </html>
